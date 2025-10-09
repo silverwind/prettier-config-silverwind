@@ -1,0 +1,10 @@
+{
+  "extends": "typescript-config-silverwind",
+  "compilerOptions": {
+    "strict": true,
+    "types": [
+      "jest-extended",
+      "vitest/globals",
+    ],
+  },
+}

@@ -1,0 +1,33 @@
+{
+  "name": "prettier-config-silverwind",
+  "version": "0.0.0",
+  "description": "Shared prettier configuration",
+  "author": "silverwind <me@silverwind.io>",
+  "repository": "silverwind/prettier-config-silverwind",
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "eslint": "9.36.0",
+    "eslint-config-silverwind": "105.2.1",
+    "prettier": "3.6.2",
+    "tsdown": "0.15.6",
+    "tsdown-config-silverwind": "1.4.0",
+    "typescript": "5.9.2",
+    "typescript-config-silverwind": "10.0.2",
+    "updates": "16.7.3",
+    "versions": "13.2.0",
+    "vitest": "3.2.4",
+    "vitest-config-silverwind": "10.2.0"
+  }
+}
