@@ -2,7 +2,7 @@ import type {Config} from "prettier";
 
 export type CustomConfig = Config & {url: string};
 
-export default function({url: _url, ...other}: CustomConfig): Config {
+export default function ({url: _url, ...other}: CustomConfig): Config {
   return {
     arrowParens: "avoid",
     bracketSameLine: false,
