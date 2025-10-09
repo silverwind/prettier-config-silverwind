@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-silverwind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared prettier configuration",
   "author": "silverwind <me@silverwind.io>",
   "repository": "silverwind/prettier-config-silverwind",
