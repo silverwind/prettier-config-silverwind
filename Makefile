@@ -29,8 +29,8 @@ test-update: node_modules build
 .PHONY: build
 build: node_modules $(DIST_FILES)
 
-$(DIST_FILES): $(SOURCE_FILES) package-lock.json prettier.config.ts
-	npx prettier
+$(DIST_FILES): $(SOURCE_FILES) package-lock.json tsdown.config.ts
+	npx tsdown
 
 .PHONY: publish
 publish: node_modules

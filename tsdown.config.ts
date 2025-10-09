@@ -1,5 +1,5 @@
-import {defineConfig} from "prettier";
-import {nodeLib} from "./index.ts";
+import {defineConfig} from "tsdown";
+import {nodeLib} from "tsdown-config-silverwind";
 
 export default defineConfig(nodeLib({
   url: import.meta.url,
