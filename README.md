@@ -3,10 +3,9 @@
 Shared prettier configuration
 
 ```js
-import {nodeLib} from "prettier-config-silverwind";
-import {defineConfig} from "prettier";
+import silverwind from "prettier-config-silverwind";
 
-export default defineConfig(nodeLib({url: import.meta.url}));
+export default silverwind({url: import.meta.url});
 ```
 
 © [silverwind](https://github.com/silverwind), distributed under BSD licence.
