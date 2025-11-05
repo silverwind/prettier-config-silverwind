@@ -41,19 +41,19 @@ update: node_modules
 
 .PHONY: publish
 publish: node_modules
-	npm publish --provenance --access public
+	npm publish
 
-.PHONY: path
-patch: node_modules lint test build
+.PHONY: patch
+patch: node_modules lint test
 	npx versions patch package.json package-lock.json
 	git push -u --tags origin master
 
 .PHONY: minor
-minor: node_modules lint test build
+minor: node_modules lint test
 	npx versions minor package.json package-lock.json
 	git push -u --tags origin master
 
 .PHONY: major
-major: node_modules lint test build
+major: node_modules lint test
 	npx versions major package.json package-lock.json
 	git push -u --tags origin master
