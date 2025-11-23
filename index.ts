@@ -12,6 +12,7 @@ export default function ({url: _url, ...other}: CustomConfig): Config {
     htmlWhitespaceSensitivity: "css",
     jsxSingleQuote: false,
     objectWrap: "preserve",
+    printWidth: Infinity,
     proseWrap: "preserve",
     quoteProps: "consistent",
     semi: true,
