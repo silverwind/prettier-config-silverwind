@@ -19,7 +19,7 @@ export default function ({url: _url, ...other}: CustomConfig): Config {
     singleAttributePerLine: false,
     singleQuote: false,
     tabWidth: 2,
-    trailingComma: "all",
+    trailingComma: "es5",
     useTabs: false,
     vueIndentScriptAndStyle: false,
     ...other,
