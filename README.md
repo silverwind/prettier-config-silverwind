@@ -1,4 +1,4 @@
-# prettier-config-silverwind [![](https://img.shields.io/npm/v/prettier-config-silverwind.svg)](https://www.npmjs.org/package/prettier-config-silverwind) [![](https://img.shields.io/badge/licence-bsd-blue.svg)](https://raw.githubusercontent.com/silverwind/prettier-config-silverwind/master/LICENSE)
+# prettier-config-silverwind [![](https://img.shields.io/npm/v/prettier-config-silverwind.svg)](https://www.npmjs.org/package/prettier-config-silverwind) [![](https://packagephobia.com/badge?p=prettier-config-silverwind)](https://packagephobia.com/result?p=prettier-config-silverwind) [![](https://img.shields.io/badge/licence-bsd-blue.svg)](https://raw.githubusercontent.com/silverwind/prettier-config-silverwind/master/LICENSE)
 
 Shared prettier configuration
 
