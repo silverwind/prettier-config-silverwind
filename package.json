@@ -3,7 +3,10 @@
   "version": "2.0.2",
   "description": "Shared prettier configuration",
   "author": "silverwind <me@silverwind.io>",
-  "repository": "silverwind/prettier-config-silverwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/prettier-config-silverwind.git"
+  },
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
